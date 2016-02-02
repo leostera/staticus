@@ -1,0 +1,31 @@
+{
+  "name": "staticus",
+  "version": "0.0.1",
+  "description": "A Reactive Static Site Generator",
+  "main": "bin/staticus",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostera/staticus.git"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "static",
+    "site",
+    "generator",
+    "markdown",
+    "rxjs",
+    "browserify"
+  ],
+  "author": "Leandro Ostera <leandro@ostera.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ostera/staticus/issues"
+  },
+  "homepage": "https://github.com/ostera/staticus#readme"
+}
