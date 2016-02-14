@@ -1,20 +1,14 @@
 import cli from 'commander';
 
-import tree from './lib/tree';
+import bootstrap from './lib/bootstrapper';
 
 const staticus = require('./package.json');
-
-let root = process.cwd();
 
 cli
   .version(staticus.version)
 
 cli
   .command('new')
-  .action( (env) => {
-    let t = tree(root);
-    console.log(root);
-    console.log(t);
-  });
+  .action(bootstrap);
 
 cli.parse(process.argv);
