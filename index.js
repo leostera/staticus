@@ -1,14 +1,14 @@
-import cli from 'commander';
+import cli from 'commander'
 
-import bootstrap from './lib/bootstrapper';
+import bootstrap from './lib/bootstrapper'
 
-const staticus = require('./package.json');
+const staticus = require('./package.json')
 
 cli
   .version(staticus.version)
 
 cli
   .command('new')
-  .action(bootstrap);
+  .action(bootstrap)
 
-cli.parse(process.argv);
+cli.parse(process.argv)
